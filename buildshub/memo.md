@@ -1,4 +1,4 @@
-$ rails new buildshub
+$ rails new buildshub -d mysql
 $ cd buildshub
 $ rails g scaffold student name:string
 $ rake db:create
