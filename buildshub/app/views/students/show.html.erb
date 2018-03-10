@@ -1,9 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @student.name %>
+  <strong><%= @student.name %></strong>
+  様
+</p>
+</br>
+<p>
+  <strong>メールアドレス：<strong>
+  <%= @student.mail %>
+  <strong> 宛にメールを送信しました。ご確認ください<strong>
 </p>
 
-<%= link_to 'Edit', edit_student_path(@student) %> |
-<%= link_to 'Back', students_path %>
+<%= link_to 'Index', edit_student_path(@student) %> |
